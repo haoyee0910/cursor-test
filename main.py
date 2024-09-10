@@ -17,9 +17,9 @@ def guess_the_number():
 
             # Check the guess
             if guess < secret_number:
-                print("Too low! Try a higher number.")
+                print("Too low! Try a bigger number.")
             elif guess > secret_number:
-                print("Too high! Try a lower number.")
+                print("Too high! Try a smaller number.")
             else:
                 print(f"Congratulations! You guessed the number in {attempts} attempts!")
                 return
