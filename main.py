@@ -4,7 +4,7 @@ def guess_the_number():
     # Generate a random number between 1 and 50
     secret_number = random.randint(1, 50)
     attempts = 0
-    max_attempts = 10
+    max_attempts = 20
 
     print("Welcome to Guess the Number!")
     print(f"I'm thinking of a number between 1 and 50. You have {max_attempts} attempts to guess it.")
