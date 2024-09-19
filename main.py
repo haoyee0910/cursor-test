@@ -34,7 +34,7 @@ def guess_the_number():
         except ValueError:
             print("Please enter a valid number.")
 
-    print(f"Sorry, you've run out of attempts. The number was {secret_number}.")
+    print(f"Sorry, you've run out of attempts already. The number was {secret_number}.")
 
 # Run the game
 if __name__ == "__main__":
