@@ -8,6 +8,7 @@ def guess_the_number():
 
     print("Welcome to Guess the Number!")
     print(f"I'm thinking of a number between 1 and 50. You have {max_attempts} attempts to guess it.")
+    base_port = 8000 
 
     while attempts < max_attempts:
         try:
